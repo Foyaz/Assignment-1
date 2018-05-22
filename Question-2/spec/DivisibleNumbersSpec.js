@@ -1,6 +1,6 @@
 describe("isDivisible", function(){
     it("should return true, when the number is divisible by both of the provided divisors", function(){
-        expect(isDivisible([20,4,2])).toBe(false);
+        expect(isDivisible([8,2,4])).toBe(true);
     });
     it("should return false, when the number is smaller then both the provided divisors", function(){
         expect(isDivisible([16,32,48])).toBe(false);
